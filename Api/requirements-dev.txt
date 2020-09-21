@@ -1,0 +1,10 @@
+dynaconf
+flask
+flask-restful
+flask-sqlalchemy
+mysql-connector-python
+pytest
+pytest-flask
+flake8
+isort
+black

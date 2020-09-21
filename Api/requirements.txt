@@ -1,0 +1,6 @@
+dynaconf
+flask
+flask-restful
+flask-sqlalchemy
+gunicorn
+mysql-connector-python

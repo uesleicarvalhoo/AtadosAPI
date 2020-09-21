@@ -1,0 +1,17 @@
+[default]
+JSON_AS_ASCII = false
+SQLALCHEMY_TRACK_MODIFICATIONS = false
+
+
+EXTENSIONS = [
+    "atadosapi.ext.db:init_app",
+    "atadosapi.ext.api:init_app",
+    "atadosapi.ext.cli:init_app"
+]
+
+[development]
+DEBUG = true
+
+[test]
+DEBUG = true
+SQLALCHEMY_DATABASE_URI = "sqlite:///test.db"
